@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Housing price prediciton
+        </title>
+
+    </head>
+    <body>
+        <h1>
+            Housing prediction
+        </h1>
+        <form>
+
+        </form>
+    </body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Regression Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Linear Regression Prediction Form</h1>
+    <form action="/predict" method="post">
+        <label for="longitude">Longitude:</label>
+        <input type="text" name="longitude" required>
+
+        <label for="latitude">Latitude:</label>
+        <input type="text" name="latitude" required>
+
+        <label for="housing_median_age">Housing Median Age:</label>
+        <input type="text" name="housing_median_age" required>
+
+        <label for="total_rooms">Total Rooms:</label>
+        <input type="text" name="total_rooms" required>
+
+        <label for="total_bedrooms">Total Bedrooms:</label>
+        <input type="text" name="total_bedrooms" required>
+
+        <label for="population">Population:</label>
+        <input type="text" name="population" required>
+
+        <label for="households">Households:</label>
+        <input type="text" name="households" required>
+
+        <label for="median_income">Median Income:</label>
+        <input type="text" name="median_income" required>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
+
+</html>
